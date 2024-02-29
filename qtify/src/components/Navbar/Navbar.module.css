@@ -1,0 +1,11 @@
+.Navbar{
+    background-color: #34c94b;
+    height: 74px;
+    padding: 0px 32px;
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    position: absolute;
+    top: 0;
+    justify-content: space-between; /*place the component in left middle and right ends */
+}
