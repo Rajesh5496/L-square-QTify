@@ -4,8 +4,8 @@
     padding: 0px 32px;
     display: flex;
     align-items: center;
-    width: 1440px;
+    /* width: 1440px;
     position: absolute;
-    top: 0;
+    top: 0; */
     justify-content: space-between; /*place the component in left middle and right ends */
 }
