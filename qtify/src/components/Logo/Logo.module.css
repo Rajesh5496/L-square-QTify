@@ -1,0 +1,5 @@
+.center{
+    display: flex; /* or grid */
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
