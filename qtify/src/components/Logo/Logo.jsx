@@ -3,5 +3,5 @@ import LogoImage from "../../assets/qtifylogo.png"
 import styles from "./Logo.module.css"
 
 export default function Logo(){
-    return <img src={LogoImage}  alt="Qtify Logo" width={67} />
+    return <img src={LogoImage}  alt="Qtify Logo" width={65} />
 }
