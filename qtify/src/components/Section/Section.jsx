@@ -8,7 +8,7 @@ function Section({ title, data, type }) {
   //   console.log(JSON.stringify(data));
   //   console.log(JSON.stringify(title));
   //   console.log(JSON.stringify(type));
-  const [isCollapsed, setIsCollapsed] = React.useState(false);
+  const [isCollapsed, setIsCollapsed] = React.useState(true);
   const handleToggle = () => {
     setIsCollapsed((prevState) => !prevState);
   };
