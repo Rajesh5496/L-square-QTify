@@ -1,0 +1,24 @@
+
+.cardsWrapper{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 columns */
+    gap: 20px; /* spacing between cards */
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header h3{
+    color: white
+}
+
+.header h4{
+    color: #34c94b
+}
+
+.section{
+    background-color: var(--color-black);
+}

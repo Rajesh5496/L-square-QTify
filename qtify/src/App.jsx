@@ -1,12 +1,13 @@
 import React from "react";
 import { StyledEngineProvider } from "@mui/material";
 import Navbar from "./components/Navbar/Navbar";
+import Homepage from "./components/Homepage/Homepage"
 
 function App() {
   return (
     <>
       <StyledEngineProvider injectFirst> 
-        <Navbar />
+        <Homepage />
       </StyledEngineProvider>
     </>
   );
