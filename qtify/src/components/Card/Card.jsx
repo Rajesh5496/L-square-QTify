@@ -7,17 +7,17 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 
 function Cards({ data, type }) {
-  console.log(type);
-  console.log(data);
+  // console.log(type);
+  // console.log(data);
   const getCard = (type) => {
     switch (type) {
       case "album": {
         const { image, follows, title, slug, songs } = data;
-        console.log(slug);
+        // console.log(slug);
         return (
           <Tooltip title={`${songs.length} songs`} placement="top" arrow>
             <div className={styles.wrapper}>
-              <Link to={`/album/${slug}`}>
+              <Link to={`/album/${slug}`} style={{ textDecoration: 'none' }} className={styles.slug}>
                 {/* <div className={styles.card}>
                   <img src={image} alt="album" width="100%" height="100%" loading="lazy" />
                   <Chip

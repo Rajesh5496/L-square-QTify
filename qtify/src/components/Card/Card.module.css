@@ -10,6 +10,12 @@
     /* overflow: hidden; */
 }
 
+.slug{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
 .banner{
     position: absolute;
     bottom: 0;

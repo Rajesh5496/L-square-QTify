@@ -1,0 +1,22 @@
+.fontcolor{
+    /* color: white; */
+}
+
+.divw{
+    max-width: 1500px;
+}
+
+.imagenext{
+    color: black;
+    display: block;
+}
+
+.imageprev{
+    color: black;
+    display: block;
+}
+
+.imagedis{
+    color: grey;
+    display: block;
+}
