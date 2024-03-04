@@ -4,9 +4,9 @@ import { CircularProgress } from "@mui/material";
 import Cards from "../Card/Card";
 
 function Section({title, data, type}) {
-  console.log(JSON.stringify(data));
-  console.log(JSON.stringify(title));
-  console.log(JSON.stringify(type));
+//   console.log(JSON.stringify(data));
+//   console.log(JSON.stringify(title));
+//   console.log(JSON.stringify(type));
   return (
     <div className={styles.section}>
       <div className={styles.header}>
