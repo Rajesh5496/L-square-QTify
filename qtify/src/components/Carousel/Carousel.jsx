@@ -18,7 +18,7 @@ import leftArrowImage from "../../assets/carouselleftarrow.svg"
 // SwiperCore.use([Navigation, Pagination]);
 
 function Carousel({ data, type }) {
-  console.log(data.length);
+//   console.log(data.length);
   
   return (
     <div className={styles.divw}>

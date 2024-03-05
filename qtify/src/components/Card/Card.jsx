@@ -53,7 +53,18 @@ function Cards({ data, type }) {
 
         return (
           <div className={styles.wrapper}>
-            <div className={styles.card}>
+            <Card className={styles.card} >
+                  <CardMedia
+                    component="img"
+                    image={image}
+                    alt={title}
+                  />
+                    <Chip label={`${likes} Likes`} size="small" className={styles.chip}/>
+                </Card>
+                <div className={styles.titleWrapper}>
+                  {title}
+                </div>
+            {/* <div className={styles.card}>
               <img src={image} alt="song" loading="lazy" />
               <div className={styles.banner}>
                 <div className={styles.pill}>
@@ -63,7 +74,7 @@ function Cards({ data, type }) {
             </div>
             <div className={styles.titleWrapper}>
               <p>{title}</p>
-            </div>
+            </div> */}
           </div>
         );
       }

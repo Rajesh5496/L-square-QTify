@@ -20,6 +20,11 @@
 }
 
 .section{
-    /* background-color: var(--color-black); */
-    background-color: white;
+    background-color: var(--color-black);
+    /* background-color: white; */
+}
+
+.tabs{
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
